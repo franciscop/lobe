@@ -1,0 +1,27 @@
+{
+  "name": "lobe",
+  "version": "0.1.0",
+  "description": "Deep learning made easy with [Lobe.ai](https://lobe.ai/)",
+  "main": "lobe.min.js",
+  "scripts": {
+    "build": "rollup lobe.js --name lobe --output.format umd | uglifyjs -o lobe.min.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franciscop/lobe"
+  },
+  "keywords": [],
+  "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "uglify-es": "^3.3.9"
+  }
+}
