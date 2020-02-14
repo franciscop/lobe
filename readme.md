@@ -1,5 +1,7 @@
 # Lobe
 
+> This is an unofficial package!
+
 Deep learning made easy with [Lobe.ai](https://lobe.ai/):
 
 ```js
